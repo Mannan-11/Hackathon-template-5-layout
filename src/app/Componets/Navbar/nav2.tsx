@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 
 export default function Nav2 (){
@@ -13,12 +14,12 @@ export default function Nav2 (){
                 <li className="hover:cursor-pointer hover:text-gray-600"><Link href="ContactPage">Contact</Link></li>
                 <li className="hover:cursor-pointer hover:text-gray-600"><Link href="TeamPage">Pages</Link></li>
             </ul>
-          <h2 className="ms-[435px]"><img src="icn7.png" alt="img" /></h2>
+          <h2 className="ms-[435px]"><Image src="/icn7.png" alt="img" width={16} height={16}/></h2>
           <h2 className="ms-[5px] hover:cursor-pointer hover:text-sky-400 text-sm font-bold text-[#23A6F0]">Login / Register</h2>
-          <h2 className="ms-[30px]"><img src="icn8.png" alt="img"/></h2>
-          <h2 className="ms-[30px]"><img src="icn9.png" alt="img"/></h2>
+          <h2 className="ms-[30px]"><Image src="/icn8.png" alt="img" width={16} height={16}/></h2>
+          <h2 className="ms-[30px]"><Image src="/icn9.png" alt="img" width={16} height={16}/></h2>
           <h1 className="ms-[5px] text-[#23A6F0] font-normal text-xs">1</h1>
-          <h2 className="ms-[30px]"><img src="icn10.png" alt="img"/></h2>
+          <h2 className="ms-[30px]"><Image src="/icn10.png" alt="img" width={16} height={16}/></h2>
           <h1 className="ms-[5px] text-[#23A6F0] font-normal text-xs">1</h1>
             
         </div>

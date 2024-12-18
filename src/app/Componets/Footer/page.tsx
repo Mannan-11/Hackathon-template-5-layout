@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Footer (){
     return(
         <div>
@@ -6,9 +7,9 @@ export default function Footer (){
                     <div className="items-center flex-row w-[1049px] h-[142px] justify-self-center">
                         <h1 className="mt-[53px] font-bold text-[#252B42] text-2xl">Bandage</h1>
                         <div className="-mt-[30px] items-center ms-[770px] flex flex-row">
-                            <h1><img src="i4.png" alt="img" /></h1>
-                            <h1 className="ms-5"><img src="i5.png" alt="img" /></h1>
-                            <h1 className="ms-5"><img src="i6.png" alt="img" /></h1>
+                            <h1><Image src="/i4.png" alt="img" width={24} height={24} /></h1>
+                            <h1 className="ms-5"><Image src="/i5.png" alt="img" width={24} height={24}/></h1>
+                            <h1 className="ms-5"><Image src="/i6.png" alt="img" width={24} height={24}/></h1>
                         </div>
                     </div>
                 </div>

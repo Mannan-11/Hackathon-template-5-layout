@@ -1,41 +1,42 @@
 import React from "react"
 import Card2 from "./card2";
+import Image from "next/image"
 
 const Card1 = () => {
-    let image = <img src="p1.png" alt="img"
+    const image:any = <Image src="/p1.png" alt="img"
     width={239}
     height={427} />
-    let h = "Graphic Design"
-    let p = "English Department"
-    let price = "$16.48"
-    let prices = "$6.48"
-    let colors = <img src="color.png" alt="img" />
+    const h:String = "Graphic Design"
+    const p:String = "English Department"
+    const price:String = "$16.48"
+    const prices:String = "$6.48"
+    const colors:any = <Image src="/color.png" alt="img" width={82} height={16} />
 
-    let image1 = <img src="p2.png" alt="img"
+    const image1:any = <Image src="/p2.png" alt="img"
     width={239}
     height={427} />
  
-    let image2 = <img src="p3.png" alt="img"
+    const image2:any = <Image src="/p3.png" alt="img"
     width={239}
     height={427} />
 
-    let image3 = <img src="p4.png" alt="img"
+    const image3:any = <Image src="/p4.png" alt="img"
     width={239}
     height={427} />
   
-    let image4 = <img src="p5.png" alt="img"
+    const image4:any = <Image src="/p5.png" alt="img"
     width={239}
     height={427} />
   
-    let image5 = <img src="p6.png" alt="img"
+    const image5:any = <Image src="/p6.png" alt="img"
     width={239}
     height={427} />
 
-    let image6 = <img src="p7.png" alt="img"
+    const image6:any = <Image src="/p7.png" alt="img"
     width={239}
     height={427} />
   
-    let image7 = <img src="p8.png" alt="img"
+    const image7:any = <Image src="/p8.png" alt="img"
     width={239}
     height={427} />
   

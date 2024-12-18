@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 
 export default function Desktop1 (){
     return(
@@ -15,13 +15,13 @@ export default function Desktop1 (){
                         </div>
                 </div>
                 <div className="mt-[114px]">
-                                <img src="m1.png" alt="img" />
+                                <Image src="/m1.png" alt="img" width={443}  height={685}/>
                         </div>              
                   </div>
         </div>
      <div className="flex flex-row w-[1440px] font-Montserat">
         <div className="px-24">
-            <img src="m2.png" alt="img" 
+            <Image src="/m2.png" alt="img" 
             width={704}
             height={682} />
         </div>

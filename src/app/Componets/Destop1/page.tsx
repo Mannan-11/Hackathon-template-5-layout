@@ -1,18 +1,17 @@
 import Nav2 from "../Navbar/nav2"
 import Nav1 from "../Navbar/nav1"
-import MobileNav1 from "../Navbar/mobileNav1"
+import Image from "next/image"
 
 export default function Destop1 (){
     return(
         <div className="w-[1440px] justify-self-center">
-            <div className='font-Montserat w-[1440px] max-sm:w-[414px]'>
-            <div className="flex flex-col w-[1440px] max-sm:w-[414px] font-Montserat">
+            <div className='font-Montserat w-[1440px] '>
+            <div className="flex flex-col w-[1440px]  font-Montserat">
                 <div className="hidden lg:block"><Nav1 /></div>
                 <div className="hidden lg:block"><Nav2 /></div>
-                <div className="lg:hidden"><MobileNav1 /></div>
             </div>
                     <div className='relative w-[1440px] h-[852px]'>
-                          <h1 className=' absolute'> <img src="girl.jpg" alt="img"
+                          <h1 className=' absolute'> <Image src="/girl.jpg" alt="img"
                            width={1440}
                            height={716} />    </h1>
                            <div className='absolute mt-44 ms-44'>
@@ -26,7 +25,7 @@ export default function Destop1 (){
 
                         <div className='flex self-center w-full flex-col'>
                             <h1 className='font-bold uppercase text-center text-2xl text-[#252B42]'>
-                                editor's pick 
+                                editor&apos;s pick 
                             </h1>
                             
                                <h2 className='font-normal text-center text-sm mt-2 text-[#737373]'>Problems trying to resolve the conflict between</h2>
@@ -36,26 +35,26 @@ export default function Destop1 (){
 
                              <div className=' relative w-[520px] h-[504px]'>
                                 <div className='w-[513px] h-auto '>
-                                    <h1 className='absolute'><img src="q1.png" alt="img" width={510} height={500} /></h1>
+                                    <h1 className='absolute'><Image src="/q1.png" alt="img" width={510} height={500} /></h1>
                                     <button className='absolute hover:bg-gray-100 ms-[31px] mb-6 bottom-0 px-[70px] font-bold text-[16px]  py-[15px] bg-white'>MEN</button>
                                 </div>
                                 </div>
                             <div className='relative w-[240px] h-[500px] ms-4'>
                                 <div className='w-[240px] h-[500px]'>
-                                    <h1 className=' absolute'><img src="q2.png" alt="img" /></h1>
+                                    <h1 className=' absolute'><Image src="/q2.png" width={240} height={500} alt="img" /></h1>
                                     <button className='hover:bg-gray-100 bottom-0 ms-[21px] mb-5 font-bold text-[16px] py-[15px] bg-white px-[40px] absolute'>WOMEN</button>
                                 </div>
                                </div>
                                <div className='flex flex-col ms-6'>
                                 <div className='relative w-[240px]  h-[242px]'>
                                     <div>
-                                        <h1 className='absolute '><img src="q3.png" alt="img" width={240} height={242} /></h1>
+                                        <h1 className='absolute '><Image src="/q3.png" alt="img" width={240} height={242} /></h1>
                                         <button className=' absolute hover:bg-gray-100 bottom-0 ms-[14px] mb-6 font-bold text-[16px] py-[15px] bg-white px-[25px] uppercase '>accessories</button>
                                     </div>
                                     </div>
                                     <div className='relative mt-4 w-[240px] h-[242px]'>
                                         <div>
-                                            <h1 className=' absolute'><img src="q4.png" alt="img" width={240} height={242} /></h1>
+                                            <h1 className=' absolute'><Image src="/q4.png" alt="img" width={240} height={242} /></h1>
                                             <button className=' absolute hover:bg-gray-100 bottom-0 ms-[14px] mb-6 font-bold text-[16px] py-[15px] bg-white px-[25px]'>KIDS</button>
                                         </div>
                                     </div>
