@@ -1,15 +1,30 @@
-import Destop1 from "./Componets/Destop1/page"
-import Card1 from "./Componets/ProductCard/card1"
-import Desktop1 from "./Componets/Desktop1/page"
-import Post from "./Componets/Destop1/FeaturedPost/page"
+import Herosection from "./Components/HeroSection"
+import EditorsPick from "./Components/Editorspick";
+import Cart1 from "./Components/FeaturedProducts"; 
+import Vitaclassic from "./Components/Vitaclassicproduct";
+import Neuraluniverse from "./Components/NeuralUniverse";
+import FeaturedPost from "./Components/FeaturedPost";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Navbar from "./Components/Navbar";
+
 
 export default function Home() {
   return (
-    <div className="w-[1440px] justify-self-center"> 
-      <div><Destop1 /></div>
-      <div><Card1 /></div>
-      <div><Desktop1 /></div>
-      <div><Post /></div>
+   <main>
+    <div className="hidden lg:block">
+    <Header />
     </div>
-  )
+    <div className="flex-col lg:flex">
+    <Navbar />
+    </div>
+    <Herosection />
+    <EditorsPick />
+    <Cart1 />
+    <Vitaclassic />
+    <Neuraluniverse />
+    <FeaturedPost />
+    <Footer />
+    </main>
+  );
 }
