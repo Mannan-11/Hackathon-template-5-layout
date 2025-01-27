@@ -22,7 +22,7 @@ const Cart1 = () => {
             <div className="flex flex-col w-[1124px] h-[1652px] mx-[220px] py-[80px] gap-[80px]">
                 <div className="flex flex-col w-[692px] h-[102px] mx-[216px] gap-[10px]">
                     <h1 className="flex text-[20px] leading-[30px] text-[#737373] w-[191px] h-[30px] mx-[250px]">Featured Products</h1>
-                    <p className="flex text-[24px] font-bold leading-[32px] text-[#252B42] tracking-[0.1px] w-[299px] h-[32px] mx-[196px]">BESTSELLER PRODUCTS</p>
+                    <p className="flex text-[24px] font-bold leading-[32px] text-[#252B42] tracking-[0.1px] w-[330px] h-[32px] mx-[196px]">BESTSELLER PRODUCTS</p>
                     <p className="flex text-[14px] leading-[20px] text-[#737373] w-[342px] h-[20px] mx-[174.5px] tracking-[0.2px]">Problems trying to resolve the conflict between </p>
                 </div>
 

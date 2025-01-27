@@ -30,7 +30,7 @@ export default function FeaturedPost() {
     ]
 
     return (
-        <div className="flex w-full h-[1044px]">
+        <div className="flex w-full h-[1044px] md:flex-col">
             <div className="flex flex-col w-[1050px] h-[1044px] mx-[242.5px] gap-[80px] py-[112px]">
                 <div className="flex flex-col w-[691px] h-[134px] mx-[216px] gap-[10px]">
                     <h1 className="flex text-[14px] leading-[24px] text-[#23A6F0] w-[114px] h-[24px] mx-[287px] tracking-[0.2px]">Practice Advice</h1>

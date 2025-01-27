@@ -8,7 +8,7 @@ import { Eye } from 'lucide-react';
 export default function Herosection2() {
 
     return (
-        <div className="flex flex-col border font-Montserat w-[1535px] h-[690px] bg-[#FAFAFA]">
+        <div className="flex flex-col w-[1535px] h-[690px] bg-[#FAFAFA]">
             <div className="flex w-[1535px] h-[92px]">
                 <div className="flex w-[1033px] h-[44px] ml-[251px] my-6 gap-[30px]">
                     <div className="flex w-[119px] h-[44px] gap-[15px]">

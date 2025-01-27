@@ -24,7 +24,9 @@ export default function Navbar() {
                     <Link href="/About" className="hover:text-gray-900">
                         <h1 className="w-[45px] h-6 text-[#737373] text-[14px] leading-[24px] tracking-[0.2px]"> About</h1>
                     </Link>
+                    <Link href="/Blog">
                     <h1 className="w-[33px] h-6 text-[#737373] text-[14px] leading-[24px] tracking-[0.2px]">Blog</h1>
+                    </Link>
                     <Link href="/Contact" className="hover:text-gray-900">
                         <h1 className="w-[58px] h-6 text-[#737373] text-[14px] leading-[24px] tracking-[0.2px]">Contact</h1>
                     </Link>

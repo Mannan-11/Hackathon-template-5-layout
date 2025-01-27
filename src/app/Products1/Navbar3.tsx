@@ -17,26 +17,28 @@ export default function Navbar3() {
             <div className="flex w-[815px] h-[58px] gap-36">
                 <div className="flex w-[361px] h-[25px] gap-[15px] my-[16.75px]">
                     <Link href="/" className="hover:text-gray-900">
-                    <h1 className="w-[43px] h-6 text-[#737373] text-[14px] leading-[24px] tracking-[0.2px]">Home</h1>
+                        <h1 className="w-[43px] h-6 text-[#737373] text-[14px] leading-[24px] tracking-[0.2px]">Home</h1>
                     </Link>
                     <Link href="/Products1" className="flex hover:text-gray-900">
-                    <h1 className="flex w-[63px] h-[25px] text-[#737373] text-[14px] leading-[24px] tracking-[0.2px]">Shop <ChevronDown /></h1>
+                        <h1 className="flex w-[63px] h-[25px] text-[#737373] text-[14px] leading-[24px] tracking-[0.2px]">Shop <ChevronDown /></h1>
                     </Link>
                     <Link href="/About" className="hover:text-gray-900">
-                    <h1 className="w-[45px] h-6 text-[#737373] text-[14px] leading-[24px] tracking-[0.2px]">About</h1>
+                        <h1 className="w-[45px] h-6 text-[#737373] text-[14px] leading-[24px] tracking-[0.2px]">About</h1>
                     </Link>
-                    <h1 className="w-[33px] h-6 text-[#737373] text-[14px] leading-[24px] tracking-[0.2px]">Blog</h1>
+                    <Link href="/Blog">
+                        <h1 className="w-[33px] h-6 text-[#737373] text-[14px] leading-[24px] tracking-[0.2px]">Blog</h1>
+                    </Link>
                     <Link href="/Contact" className="hover:text-gray-900">
-                    <h1 className="w-[58px] h-6 text-[#737373] text-[14px] leading-[24px] tracking-[0.2px]">Contact</h1>
+                        <h1 className="w-[58px] h-6 text-[#737373] text-[14px] leading-[24px] tracking-[0.2px]">Contact</h1>
                     </Link>
                     <Link href="/ListPage">
-                    <h1 className="w-[44px] h-6 text-[#737373] text-[14px] leading-[24px] tracking-[0.2px]">Pages</h1>
+                        <h1 className="w-[44px] h-6 text-[#737373] text-[14px] leading-[24px] tracking-[0.2px]">Pages</h1>
                     </Link>
                 </div>
-                <div className="flex w-[324px] h-[54px]">
+                <div className="flex w-[340px] h-[54px]">
                     <div className="flex w-[166px] h-[54px] px-[15px] py-[15px]">
-                        <p className="flex w-3 h-3 text-[#23A6F0]"><UserRound /></p>
-                        <p className="flex w-[119px] h-6 text-[#23A6F0] text-[14px] leading-[24px] tracking-[0.2px]">Login / Register</p>
+                        <p className="flex w-7 h-3 text-[#23A6F0] -ms-2"><Link href="/Login"><UserRound /></Link></p>
+                        <p className="flex w-[119px] h-6 text-[#23A6F0] text-[14px] leading-[24px] tracking-[0.2px]"><Link href="/Login">Login / Register</Link></p>
                     </div>
                     <div className="flex w-[46px] h-[46px] my-1">
                         <p className="w-4 h-4 text-[#23A6F0] my-[10px] mx-[10px]"><Search /></p>

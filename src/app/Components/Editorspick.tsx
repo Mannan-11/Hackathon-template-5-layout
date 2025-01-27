@@ -9,7 +9,7 @@ export default function EditorsPick() {
 
                 <div className="flex flex-col w-[1050px] h-[770px] mx-[250px] gap-[48px] py-[80px]">
                     <div className="flex flex-col w-[607px] h-[62px] mx-[221.5px] gap-[10px]">
-                        <h1 className="text-[#252B42] text-[24px] leading-8 font-bold w-[181px] h-[32px] mx-[213px]">EDITOR’S PICK</h1>
+                        <h1 className="text-[#252B42] text-[24px] leading-8 font-bold w-[200px] h-[32px] mx-[213px]">EDITOR’S PICK</h1>
                         <h1 className="text-[#737373] text-[14px] leading-5 w-[347px] h-[20px] mx-[130px]">Problems trying to resolve the conflict between</h1>
                     </div>
                     <div className="flex sm:flex-col lg:flex-row w-[1050px] h-[500px] gap-[30px]">
