@@ -50,7 +50,7 @@ const ProductDetail = () => {
 
     if (!product) {
         return <div>
-            <p>Loading...</p>;
+            <p>Loading...</p>
             <div className="flex flex-col justify-center items-center h-screen px-4">
                 <h2 className="text-3xl font-bold text-red-500 mb-4 text-center md:text-4xl">Product Not Found</h2>
                 <p className="text-lg mb-6 text-center md:text-xl">Sorry, the product you are looking for does not exist or is no longer available.</p>

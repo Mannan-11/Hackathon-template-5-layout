@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider publishableKey="sk_test_12DjkL2azfBv3Xpipl8kSZNctqHHiM7mBtlUNyGFln">
+    <ClerkProvider>
     <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
